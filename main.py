@@ -19,7 +19,7 @@ family = {}
 
 
 def addFamilyMember(name, birthday, fav_color, fav_artist = ''):
-    family[name] = {'birthday': '09/08/1984', 'fav_color': fav_color, 'fav_artist': fav_artist}
+    family[name] = {'birthday': birthday, 'fav_color': fav_color, 'fav_artist': fav_artist}
 
 
 # Add all family members
